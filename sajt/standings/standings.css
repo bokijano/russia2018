@@ -1,0 +1,464 @@
+#picture {
+	background-image: url("../naslovna/slike/naslov.jpg");
+	background-position: center;
+	background-repeat: no-repeat; 
+	height: 243px;
+}
+
+#russia {
+	background: linear-gradient(white, blue, red);	
+	color: white;
+	font-weight: bolder;
+}
+
+#content {
+  display: none;
+}
+
+#stadium1 {
+  display: block;
+	float: left;
+	margin-left: 10px;	
+}
+
+#stadium2 {
+  display: block;
+	float: right;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 859px) {
+  #stadium1,
+  #stadium2 {display:none;}
+}
+
+@media screen and (min-width: 860px) {
+  #stadium1 {
+  	max-width: 250px; 
+  	margin-left: 5px;
+  	margin-top: 20px;
+  }
+    #stadium2 {
+  	max-width: 250px;
+  	margin-right: 5px; 
+  	margin-top: 20px;  	
+  }
+}  
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#groupStandings {
+  max-width: 150px;
+  margin: 10px; 
+  background-image: url("../naslovna/slike/sp2018.jpg");
+}
+
+#stand {
+  float: left;
+  width: 100%;
+}
+
+#standImg {
+  float: left;
+  padding-top: 5px; 
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto; 
+}
+
+#titles {
+  float: left;
+  width: 100%;
+  background-color: yellow;
+  border: 3px solid #333;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px;
+  color: #333;
+  font-size: 25px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px;
+}
+
+#timing2 {
+  float: left;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  margin-top: 90px;
+  padding: 5px; 
+}
+
+#timing21 {
+  float: left;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  margin-top: 90px;
+  padding: 5px; 
+}
+
+#timing3 {
+  float: left;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  margin-top: 130px;
+  padding: 5px; 
+}
+
+#timing4 {
+  float: left;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  margin-top: 270px;
+  padding: 5px; 
+}
+
+#timing5 {
+  float: left;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  margin-top: 200px;
+  padding: 5px; 
+}
+
+#timing6 {
+  float: left;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  margin-top: 50px;
+  padding: 5px; 
+}
+
+@media screen and (min-width: 1060px) {
+  #stadium1 {
+    max-width: 300px;
+    margin-top: 30px; 
+    margin-left: 30px;
+  }
+    #stadium2 {
+    max-width: 300px;
+    margin-top: 30px; 
+    margin-left: 30px;    
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #stadium1 {
+    max-width: 400px;
+    margin-top: 0px;
+    margin-left: 10px; 
+  }
+   #stadium2 {
+    max-width: 400px;
+    margin-top: 0px;
+    margin-left: 10px; 
+  } 
+}
+
+
+
+@media screen and (max-width: 400px) {
+  #groupStandings {
+    max-width: 100px;
+    margin: 2px;
+  }  
+  .col-xxs-6 {width: 50%;
+            float: left;}
+}
+
+#penaltyShoots {
+  float: left;
+  width: 20%;
+  height: 25px;
+  border: 1px solid #333;
+  background-color: white;
+  text-align: center;
+  color: #333;
+  font-size: 20px;  
+  font-weight: bolder;
+}
+
+#winnerB, #secondA,
+#secondC, #winnerD,
+#secondG, #winnerH,
+#winner5, #winner6,
+#win5, #win6 {
+  float: left;
+  padding-left: 10px;
+  width: 60%;
+  height: 25px;
+  border: 1px solid #333;
+  background-color: white;
+  color: #333;
+  font-size: 20px;
+  font-weight: bolder;  
+}
+
+@media screen and (max-width: 768px) {
+  #penaltyShoots {font-size: 15px;
+                  width: 25%}
+  #titles {font-size: 15px;}
+  #timing2 {margin-top: 110px;}
+  #winner8 {margin-bottom: 150px;}
+  #timing3 {margin-top: 70px;}
+  #timing4 {margin-top: 140px;}
+  #timing5 {margin-top: 100px;}
+  #timing6 {margin-top: 5px;}
+  #groupStandings {
+    max-width: 68px;
+    margin: 10px;
+  }
+  .col-x-3 {width: 24%;
+            float: left;}
+  .col-x-6 {width: 50%;
+            float: left;}
+  .col-x-12 {width: 100%;
+             float: left;}                    
+}
+
+@media screen and (min-width: 769px) {
+  #content {
+    padding-left: 25px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  .col-s-1 {width: 10%;
+            float: left;}
+  .col-s-3 {width: 25%;
+            float: left;}
+  .col-s-9 {width: 75%;
+            float: left;}                      
+}
+
+@media screen and (max-width: 1200px) {
+  #groupStandings {
+    margin: 5px;
+  }
+}
+
+#worldCupA,
+#worldCupB,
+#worldCupC,
+#worldCupD,
+#worldCupE,
+#worldCupF,
+#worldCupG,
+#worldCupH {
+  display: none;
+}
+
+#groupStandA,
+#groupStandB,
+#groupStandC,
+#groupStandD,
+#groupStandE,
+#groupStandF,
+#groupStandG,
+#groupStandH {
+   max-width: 600px;
+   margin-right: auto;
+   margin-left: auto;
+   height: 400px; 
+   padding-top: 20px;
+   background-image: url("../naslovna/slike/sp2018.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   text-align: center;
+   color: black;
+   font-size: 18px;
+   font-weight: bolder;
+}
+
+#backing {
+  background-color: #f2f2f2;
+}
+
+
+
+#backGround {
+  background-image: url("../naslovna/slike/naslov.jpg");
+}
+
+
+#timing {
+  float: left;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  margin-top: 5px;
+  padding: 5px; 
+}
+
+#timing1 {
+  float: left;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  margin-top: 45px;
+  padding: 5px; 
+}
+
+
+#winnerA, #secondB,
+#winnerC, #secondD, 
+#winnerE, #secondE,
+#winnerF, #secondF,
+#winnerG, #secondH,
+#winner1, #winner2,
+#winner3, #winner4,
+#winner7, #winner8,
+#winner11, #winner21,
+#winner31, #winner41,
+#winner12, #winner22,
+#second11, #second21,
+#winner121, #winner221,
+#second111, #second211,
+#win1, #win2,
+#win3, #win4,
+#win7, #win8 {
+  float: left;
+  padding-left: 10px;
+  width: 70%;
+  height: 25px;
+  border: 1px solid #333;
+  background-color: white;
+  color: #333;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#goalsA1, #goalsA2,
+#goalsB1, #goalsB2,
+#goalsC1, #goalsC2,
+#goalsD1, #goalsD2,
+#goalsE1, #goalsE2,
+#goalsF1, #goalsF2,
+#goalsG1, #goalsG2,
+#goalsH1, #goalsH2,
+#goals1, #goals2,
+#goals3, #goals4,
+#goals5, #goals6,
+#goals7, #goals8,
+#goalss1, #goalss2,
+#goalss3, #goalss4,
+#goals111, #goals211,
+#goals311, #goals411,
+#goalsq1, #goalsq2,
+#goalsq3, #goalsq4,
+#goalsq5, #goalsq6,
+#goalsq7, #goalsq8,
+#goalsth1, #goalsth2,
+#goalsf1, #goalsf2 {
+  float: left;
+  width: 15%;
+  height: 25px;
+  border: 1px solid #333;
+  background-color: white;
+  text-align: center;
+  color: #333;
+  font-size: 20px;  
+  font-weight: bolder;
+}
+
+#goalsA, #goalsB,
+#goalsC, #goalsD,
+#goalsE, #goalsF,
+#goalsG, #goalsH,
+#goalsAA, #goalsBB,
+#goalsCC, #goalsDD,
+#goalsEE, #goalsFF,
+#goalsGG, #goalsHH {
+  float: left;
+  width: 20%;
+  height: 25px;
+  border: 1px solid #333;
+  background-color: white;
+  text-align: center;
+  color: #333;
+  font-size: 20px;  
+  font-weight: bolder;  
+}
+
+#extra1, #extra2 {
+  display: none;
+  float: left;
+  width: 15%;
+  height: 25px;
+  border: 1px solid #333;
+  background-color: white;
+  text-align: center;
+  color: #333;
+  font-size: 20px;  
+  font-weight: bolder;   
+}
+
+
+#lookBtn {
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 5px;
+  background-image: url("../naslovna/slike/sp2018.jpg");
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px;  
+}
+
+#archorLook {
+  float: left;
+  text-decoration: none;
+  padding-left: 50px;
+  font-size: 17px;
+  color: #333;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px;  
+}
+
+#archorLook1 {
+  float: left;
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  border: 2px solid #333;
+  border-radius: 5px;
+  color: #333;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px;  
+}
+
+#WCupLast16,
+#WCupQuarterFinals,
+#WCupSemiFinals,
+#WCupFinal {
+  display: none;
+  background-image: url("../naslovna/slike/naslov.jpg");
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sixteenLook {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}

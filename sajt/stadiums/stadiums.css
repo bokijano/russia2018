@@ -1,0 +1,151 @@
+#picture {
+	background-image: url("../naslovna/slike/naslov.jpg");
+	background-position: center;
+	background-repeat: no-repeat; 
+	height: 243px;
+}
+
+#russia {
+	background: linear-gradient(white, blue, red);	
+	color: white;
+	font-weight: bolder;
+}
+
+
+#stadium1 {
+	float: left;
+	display: block;
+	margin-left: 10px;	
+}
+
+.container {
+	display: none;
+}
+
+#stadium2 {
+	float: right;
+	display: block;
+    margin-right: 10px;
+}
+
+.pad {
+  display: block;
+  padding: 5px;
+}
+
+#rotating1 {
+	display: block;
+
+	transform: rotate(-15deg);
+}
+
+#rotating2 {
+	display: block;
+
+	transform: rotate(15deg);
+}
+
+#lookingBtn {
+	width: 100%;
+	margin-top: 25px;
+	height: 50px;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 4px 4px 8px #333;
+  box-shadow: 4px 4px 8px #333;
+  }
+
+.col-s-4 {
+	width: 33.33%;
+	float: left;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#galeryMove {
+	margin-top: 25px;
+  background-image: url("2018russia.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    body {background-image: url("sp2018.jpg");
+          background-position: center;
+          background-repeat: repeat-y;}
+    #galeryMove {margin-top: 50px;
+                 border-top: 10px solid white;
+                 border-bottom: 10px solid white;}
+    .col-x-4 {width: 25%;}
+    .col-x-6 {width: 50%;}
+    .col-x-12 {
+    	width: 100%;
+    }
+}
+
+@media screen and (max-width: 859px) {
+  #stadium1,
+  #stadium2 {display:none;}
+}
+
+@media screen and (min-width: 860px) {
+  #stadium1 {
+  	max-width: 250px; 
+  	margin-left: 5px;
+  	margin-top: 20px;
+  }
+    #stadium2 {
+  	max-width: 250px;
+  	margin-right: 5px; 
+  	margin-top: 20px;  	
+  }
+
+}
+
+@media screen and (min-width: 1060px) {
+  #stadium1 {
+  	max-width: 300px;
+  	margin-top: 30px; 
+  	margin-left: 30px;
+  }
+    #stadium2 {
+  	max-width: 300px;
+  	margin-top: 30px; 
+  	margin-left: 30px;  	
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #stadium1 {
+  	max-width: 400px;
+  	margin-top: 0px;
+  	margin-left: 10px; 
+  }
+   #stadium2 {
+  	max-width: 400px;
+  	margin-top: 0px;
+   	margin-left: 10px; 
+  } 
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px;  
+}
+
+
+
+
+
+
+
+
+

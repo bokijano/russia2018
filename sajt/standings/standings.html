@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Standings RUSSIA2018</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/jpg" href="sp2018.jpg" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="../naslovna/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="standings.css">
+</head>
+<body>
+	
+<div id="picture">
+  <img id="stadium1" class="img-responsive" src="pictures/rostov1.jpg">
+  <img id="stadium2" class="img-responsive" src="pictures/luznjiki1.jpg">
+</div>
+
+<nav id="stick" class="navbar navbar-default">
+ <div class="container-fluid">
+  <div class="navbar-header">
+   <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>        
+   </button>
+   <a id="russia" class="navbar-brand" href="">World Cup RUSSIA2018</a>
+  </div>
+
+  <div class="collapse navbar-collapse" id="myNavbar">
+   <ul class="nav navbar-nav">
+      <li><a href="../worldcup.html">Home</a></li>
+      <li><a href="../groups/groups.html">Groups</a></li>
+      <li><a href="">Standings</a></li>
+      <li><a href="../stadiums/stadiums.html">Stadiums</a></li>  
+   </ul>
+  </div>
+
+ </div>
+</nav>
+
+<div id="content">
+<!-- groups standings -->
+  <div class="container">
+
+  	<div id="groupStandings" class="col-xxs-6 col-x-3 col-s-1">
+       <button id="stand" onclick="groupA()">GROUP A</button>
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa A/rusija.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa A/saudijskaarabija.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa A/egipat.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa A/urugvaj.jpg">    
+    </div>
+    
+  	<div id="groupStandings" class="col-xxs-6 col-x-3 col-s-1">    
+       <button id="stand" onclick="groupB()">GROUP B</button>
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa B/portugalija.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa B/spanija.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa B/maroko.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa B/iran.jpg">
+    </div>
+
+    <div id="groupStandings" class="col-xxs-6 col-x-3 col-s-1">
+       <button id="stand" onclick="groupC()">GROUP C</button>
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa C/francuska.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa C/australija.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa C/peru.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa C/danska.jpg"> 
+    </div>
+    
+    <div id="groupStandings" class="col-xxs-6 col-x-3 col-s-1">    
+       <button id="stand" onclick="groupD()">GROUP D</button>
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa D/argentina.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa D/island.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa D/hrvatska.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa D/nigerija.jpg">
+    </div>    
+
+    <div id="groupStandings" class="col-xxs-6 col-x-3 col-s-1">
+       <button id="stand" onclick="groupE()">GROUP E</button>
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa E/brazil.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa E/svajcarska.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa E/kostarika.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa E/srbija.jpg"> 
+    </div>
+    
+    <div id="groupStandings" class="col-xxs-6 col-x-3 col-s-1">    
+       <button id="stand" onclick="groupF()">GROUP F</button>
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa F/nemacka.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa F/meksiko.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa F/svedska.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa F/juznakoreja.jpg">
+    </div>
+
+    <div id="groupStandings" class="col-xxs-6 col-x-3 col-s-1">
+       <button id="stand" onclick="groupG()">GROUP G</button>
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa G/belgija.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa G/panama.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa G/tunis.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa G/engleska.jpg"> 
+    </div>
+    
+    <div id="groupStandings" class="col-xxs-6 col-x-3 col-s-1">    
+       <button id="stand" onclick="groupH()">GROUP H</button>
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa H/poljska.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa H/senegal.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa H/kolumbija.jpg">
+       <img id="standImg" class="img-responsive" src="../groups/grupe/grupa H/japan.jpg">
+    </div>
+  </div><br><br><br><br>
+
+<!-- 1/8, 1/4, 1/2 finals and final-->
+<div id="backGround" class="container-fluid">
+  <div class="row">
+   <div id="lastSixteen" class="col-x-6 col-s-3">
+    <span id="titles">LAST 16</span><br><br>
+
+    <span id="timing">30.jun - SOČI (20.00)</span>
+    <p><span id="winnerA"></span><span id="goalsA1"></span><span id="extra1"></span></p>
+    <p><span id="secondB"></span><span id="goalsB2"></span><span id="extra2"></span></p>
+
+    <span id="timing">30.jun - KAZANJ (16.00)</span>
+    <p><span id="winnerC"></span><span id="goalsC1"></span></p>
+    <p><span id="secondD"></span><span id="goalsD2"></span></p>
+
+    <span id="timing">2.jul - SAMARA (16.00)</span>
+    <p><span id="winnerE"></span><span id="goalsE1"></span></p>
+    <p><span id="secondF"></span><span id="goalsF2"></span></p>
+
+    <span id="timing">2.jul - ROSTOV NA DONU (20.00)</span>
+    <p><span id="winnerG"></span><span id="goalsG1"></span></p>
+    <p><span id="secondH"></span><span id="goalsH2"></span></p>
+
+    <span id="timing">1.jul - MOSKVA (Lužnjiki) (16.00)</span>
+    <p><span id="winnerB"></span><span id="goalsB1"></span><span id="penaltyShoots">pen 3</span></p>
+    <p><span id="secondA"></span><span id="goalsA2"></span><span id="penaltyShoots">pen 4</span></p>
+
+    <span id="timing">1.jul - NIŽNIJ NOVGOROD (20.00)</span>
+    <p><span id="winnerD"></span><span id="goalsD1"></span><span id="penaltyShoots">pen 3</span></p>
+    <p><span id="secondC"></span><span id="goalsC2"></span><span id="penaltyShoots">pen 2</span></p>
+
+    <span id="timing">3.jul - SANKT PETERSBURG (16.00)</span>
+    <p><span id="winnerF"></span><span id="goalsF1"></span></p>
+    <p><span id="secondE"></span><span id="goalsE2"></span></p>
+
+    <span id="timing">3.jul - MOSKVA (Otkritie arena) (20.00)</span>
+    <p><span id="winnerH"></span><span id="goalsH1"></span><span id="penaltyShoots">pen 3</span></p>
+    <p><span id="secondG"></span><span id="goalsG2"></span><span id="penaltyShoots">pen 4</span></p>
+
+   </div> 
+   <div id="quarterFinals" class="col-x-6 col-s-3">
+    <span id="titles">QUARTER FINALS</span>
+
+    <span id="timing1">6.jul - NIŽNIJ NOVGOROD  (16.00)</span>
+    <p><span id="winner1"></span><span id="goals1"></span></p>
+    <p><span id="winner2"></span><span id="goals2"></span></p>
+
+    <span id="timing2">6.jul - KAZANJ  (20.00)</span>
+    <p><span id="winner3"></span><span id="goals3"></span></p>
+    <p><span id="winner4"></span><span id="goals4"></span></p>
+
+    <span id="timing2">7.jul - SOČI  (20.00)</span>
+    <p><span id="winner5"></span><span id="goals5"></span><span id="penaltyShoots">pen 3</span></p>
+    <p><span id="winner6"></span><span id="goals6"></span><span id="penaltyShoots">pen 4</span></p>
+
+    <span id="timing2">7.jul - SAMARA  (16.00)</span>
+    <p><span id="winner7"></span><span id="goals7"></span></p>
+    <p><span id="winner8"></span><span id="goals8"></span></p>    
+
+   </div>
+
+   <div id="semiFinals" class="col-x-6 col-s-3">
+    <span id="titles">SEMI FINALS</span>
+
+    <span id="timing3">10.jul - SANKT PETERSBURG  (20.00)</span>
+    <p><span id="winner11">Francuska</span><span id="goalss1"></span></p>
+    <p><span id="winner21">Belgija</span><span id="goalss2"></span></p>
+
+    <span id="timing4">11.jul - MOSKVA (Lužnjiki)  (20.00)</span>
+    <p><span id="winner31">Hrvatska</span><span id="goalss3"></span></p>
+    <p><span id="winner41">Engleska</span><span id="goalss4"></span></p>
+
+   </div> 
+
+   <div id="final" class="col-x-6 col-s-3">
+    <span id="titles">THIRD PLACE / FINAL</span>
+
+    <span id="timing5">14.jul - SANKT PETERSBURG  (15.00)</span>
+    <span id="titles">THIRD PLACE</span>
+    <p><span id="second11"></span><span id="goalsth1">2</span></p>
+    <p><span id="second21"></span><span id="goalsth2">0</span></p>
+
+    <span id="timing6">15.jul - MOSKVA (Lužnjiki)  (16.00)</span>
+    <span id="titles">FINAL</span>    
+    <p><span id="winner12"></span><span id="goalsf1">4</span></p>
+    <p><span id="winner22"></span><span id="goalsf2">2</span></p>
+
+   </div>        
+  </div>
+</div> 
+
+</div>
+
+
+<!-- group standing A -->
+<div id="worldCupA" class="container">
+  <div class="row">
+    <div id="groupStandA" class="col-x-12 col-s-9">
+      <p id="backing"><b>Rusija</b> - <b>Saudijska Arabija .......... <span id="r1"></span> : <span id="sa1"></span></b></p>
+      <p id="backing"><b>Egipat</b> - <b>Urugvaj .......... <span id="e1"></span> : <span id="u1"></span></b></p>        
+      <p id="backing"><b>Rusija</b> - <b>Egipat .......... <span id="r2"></span> : <span id="e2"></span></b></p> 
+      <p id="backing"><b>Urugvaj</b> - <b>Saudijska Arabija .......... <span id="u2"></span> : <span id="sa2"></span></b></p> 
+      <p id="backing"><b>Urugvaj</b> - <b>Rusija .......... <span id="u3"></span> : <span id="r3"></span></b></p>                   
+      <p id="backing"><b>Saudijska Arabija</b> - <b>Egipat .......... <span id="sa3"></span> : <span id="e3"></span></b></p><hr> 
+
+      <p id="backing">Urugvaj .......... <span id="uru"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="uru1"></span> : <span id="uru2"></span></p>
+      <p id="backing">Russia .......... <span id="rus"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="rus1"></span> : <span id="rus2"></span></p>
+      <p id="backing">Saudijska arabija .......... <span id="saudi"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="saudi1"></span> : <span id="saudi2"></span></p>
+      <p id="backing">Egipat .......... <span id="egi"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="egi1"></span> : <span id="egi2"></span></p><hr>                            
+    </div>
+
+    <div class="col-x-12 col-s-3">
+ 
+       <input id="lookBtn" type="button" value="group B" onclick="groupB()"> 
+       <input id="lookBtn" type="button" value="group C" onclick="groupC()"> 
+       <input id="lookBtn" type="button" value="group D" onclick="groupD()"> 
+       <input id="lookBtn" type="button" value="group E" onclick="groupE()"> 
+       <input id="lookBtn" type="button" value="group F" onclick="groupF()"> 
+       <input id="lookBtn" type="button" value="group G" onclick="groupG()"> 
+       <input id="lookBtn" type="button" value="group H" onclick="groupH()"><hr> 
+
+       <input id="lookBtn" type="button" value="LAST 16" onclick="last16()"> 
+       <input id="lookBtn" type="button" value="QUARTER-FINALS" onclick="quarterFinals()"> 
+       <input id="lookBtn" type="button" value="SEMI-FINALS" onclick="semiFinals()"> 
+       <input id="lookBtn" type="button" value="THIRD PLACE anf FINAL" onclick="final()"><br>
+
+       <a id="archorLook" href="standings.html">BACK TO MAIN MENU</a>                                  
+    </div>
+
+  </div>
+</div>
+
+<!-- group standing B -->
+<div id="worldCupB" class="container">
+  <div class="row">
+    <div id="groupStandB" class="col-x-12 col-s-9">
+      <p id="backing"><b>Maroko</b> - <b>Iran .......... <span id="m1"></span> : <span id="ir1"></span></b></p>        
+      <p id="backing"><b>Portugal</b> - <b>Španija .......... <span id="p1"></span> : <span id="sp1"></span></b></p>
+      <p id="backing"><b>Portugal</b> - <b>Maroko .......... <span id="p2"></span> : <span id="m2"></span></b></p> 
+      <p id="backing"><b>Iran</b> - <b>Španija .......... <span id="ir2"></span> : <span id="sp2"></span></b></p> 
+      <p id="backing"><b>Španija</b> - <b>Maroko .......... <span id="sp3"></span> : <span id="m3"></span></b></p>  
+      <p id="backing"><b>Iran</b> - <b>Portugal .......... <span id="ir3"></span> : <span id="p3"></span></b></p><hr> 
+    
+      <p id="backing">Španija .......... <span id="spain"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="spain1"></span> : <span id="spain2"></span></p>
+      <p id="backing">Portugal .......... <span id="por"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="por1"></span> : <span id="por2"></span></p>
+      <p id="backing">Iran .......... <span id="iran"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="iran1"></span> : <span id="iran2"></span></p>
+      <p id="backing">Maroko .......... <span id="mar"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="mar1"></span> : <span id="mar2"></span></p><hr>                            
+    </div>
+
+    <div class="col-x-12 col-s-3">
+       <input id="lookBtn" type="button" value="group A" onclick="groupA()"> 
+       <input id="lookBtn" type="button" value="group C" onclick="groupC()"> 
+       <input id="lookBtn" type="button" value="group D" onclick="groupD()"> 
+       <input id="lookBtn" type="button" value="group E" onclick="groupE()"> 
+       <input id="lookBtn" type="button" value="group F" onclick="groupF()"> 
+       <input id="lookBtn" type="button" value="group G" onclick="groupG()"> 
+       <input id="lookBtn" type="button" value="group H" onclick="groupH()"><hr> 
+
+       <input id="lookBtn" type="button" value="LAST 16" onclick="last16()"> 
+       <input id="lookBtn" type="button" value="QUARTER-FINALS" onclick="quarterFinals()"> 
+       <input id="lookBtn" type="button" value="SEMI-FINALS" onclick="semiFinals()"> 
+       <input id="lookBtn" type="button" value="THIRD PLACE anf FINAL" onclick="final()"><br>
+
+       <a id="archorLook" href="standings.html">BACK TO MAIN MENU</a>                                  
+    </div>
+  </div>
+</div>
+
+<!-- group standing C -->
+<div id="worldCupC" class="container">
+  <div class="row">
+    <div id="groupStandC" class="col-x-12 col-s-9">
+      <p id="backing"><b>Francuska</b> - <b>Australija .......... <span id="fr1"></span> : <span id="aus1"></span></b></p> <p id="backing"><b>Peru</b> - <b>Danska .......... <span id="per1"></span> : <span id="d1"></span></b></p>
+      <p id="backing"><b>Danska</b> - <b>Australija .......... <span id="d2"></span> : <span id="aus2"></span></b></p> 
+      <p id="backing"><b>Francuska</b> - <b>Peru .......... <span id="fr2"></span> : <span id="per2"></span></b></p> 
+      <p id="backing"><b>Australija</b> - <b>Peru .......... <span id="aus3"></span> : <span id="per3"></span></b></p>     <p id="backing"><b>Danska</b> - <b>Francuska .......... <span id="d3"></span> : <span id="fr3"></span></b></p><hr> 
+
+      <p id="backing">Francuska .......... <span id="france"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="france1"></span> : <span id="france2"></span></p>
+      <p id="backing">Danska .......... <span id="den"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="den1"></span> : <span id="den2"></span></p>
+      <p id="backing">Peru .......... <span id="peru"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="peru1"></span> : <span id="peru2"></span></p>
+      <p id="backing">Australija .......... <span id="austr"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="austr1"></span> : <span id="austr2"></span></p><hr>                           
+    </div>
+
+    <div class="col-x-12 col-s-3">
+       <input id="lookBtn" type="button" value="group A" onclick="groupA()"> 
+       <input id="lookBtn" type="button" value="group B" onclick="groupB()"> 
+       <input id="lookBtn" type="button" value="group D" onclick="groupD()"> 
+       <input id="lookBtn" type="button" value="group E" onclick="groupE()"> 
+       <input id="lookBtn" type="button" value="group F" onclick="groupF()"> 
+       <input id="lookBtn" type="button" value="group G" onclick="groupG()"> 
+       <input id="lookBtn" type="button" value="group H" onclick="groupH()"><hr> 
+
+       <input id="lookBtn" type="button" value="LAST 16" onclick="last16()"> 
+       <input id="lookBtn" type="button" value="QUARTER-FINALS" onclick="quarterFinals()"> 
+       <input id="lookBtn" type="button" value="SEMI-FINALS" onclick="semiFinals()"> 
+       <input id="lookBtn" type="button" value="THIRD PLACE anf FINAL" onclick="final()"><br>
+
+       <a id="archorLook" href="standings.html">BACK TO MAIN MENU</a>                                  
+    </div>
+
+  </div>  
+</div>
+
+<!-- group standing D -->
+<div id="worldCupD" class="container">
+  <div class="row">
+    <div id="groupStandD" class="col-x-12 col-s-9">
+      <p id="backing"><b>Argentina</b> - <b>Island .......... <span id="ar1"></span> : <span id="is1"></span></b></p>     
+      <p id="backing"><b>Hrvatska</b> - <b>Nigerija .......... <span id="hr1"></span> : <span id="ni1"></span></b></p>
+      <p id="backing"><b>Argentina</b> - <b>Hrvatska .......... <span id="ar2"></span> : <span id="hr2"></span></b></p> 
+      <p id="backing"><b>Nigerija</b> - <b>Island .......... <span id="ni2"></span> : <span id="is2"></span></b></p> 
+      <p id="backing"><b>Nigerija</b> - <b>Argentina .......... <span id="ni3"></span> : <span id="ar3"></span></b></p>  
+      <p id="backing"><b>Island</b> - <b>Hrvatska .......... <span id="is3"></span> : <span id="hr3"></span></b></p><hr> 
+
+      <p id="backing">Hrvatska .......... <span id="cro"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="cro1"></span> : <span id="cro2"></span></p>
+      <p id="backing">Argentina .......... <span id="arg"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="arg1"></span> : <span id="arg2"></span></p>
+      <p id="backing">Nigerija .......... <span id="nig"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="nig1"></span> : <span id="nig2"></span></p>
+      <p id="backing">Island .......... <span id="ice"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="ice1"></span> : <span id="ice2"></span></p><hr>            
+    </div>
+
+    <div class="col-x-12 col-s-3">
+       <input id="lookBtn" type="button" value="group A" onclick="groupA()">       
+       <input id="lookBtn" type="button" value="group B" onclick="groupB()"> 
+       <input id="lookBtn" type="button" value="group C" onclick="groupC()"> 
+       <input id="lookBtn" type="button" value="group E" onclick="groupE()"> 
+       <input id="lookBtn" type="button" value="group F" onclick="groupF()"> 
+       <input id="lookBtn" type="button" value="group G" onclick="groupG()"> 
+       <input id="lookBtn" type="button" value="group H" onclick="groupH()"><hr>  
+
+       <input id="lookBtn" type="button" value="LAST 16" onclick="last16()"> 
+       <input id="lookBtn" type="button" value="QUARTER-FINALS" onclick="quarterFinals()"> 
+       <input id="lookBtn" type="button" value="SEMI-FINALS" onclick="semiFinals()"> 
+       <input id="lookBtn" type="button" value="THIRD PLACE anf FINAL" onclick="final()"><br>
+
+       <a id="archorLook" href="standings.html">BACK TO MAIN MENU</a>                                  
+    </div>
+  
+  </div>
+</div>
+
+<!-- group standing E -->
+<div id="worldCupE" class="container">
+  <div class="row">
+    <div id="groupStandE" class="col-x-12 col-s-9">
+      <p id="backing"><b>Kostarika</b> - <b>Srbija .......... <span id="ko1"></span> : <span id="sr1"></span></b></p>      <p id="backing"><b>Brazil</b> - <b>Švajcarska .......... <span id="br1"></span> : <span id="sv1"></span></b></p>
+      <p id="backing"><b>Brazil</b> - <b>Kostarika .......... <span id="br2"></span> : <span id="ko2"></span></b></p> 
+      <p id="backing"><b>Srbija</b> - <b>Švajcarska .......... <span id="sr2"></span> : <span id="sv2"></span></b></p> 
+      <p id="backing"><b>Srbija</b> - <b>Brazil .......... <span id="sr3"></span> : <span id="br3"></span></b></p> 
+      <p id="backing"><b>Švajcarska</b> - <b>Kostarika .......... <span id="sv3"></span> : <span id="ko3"></span></b></p><hr> 
+
+      <p id="backing">Brazil .......... <span id="bra"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="bra1"></span> : <span id="bra2"></span></p>
+      <p id="backing">Švajcarska .......... <span id="svi"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="svi1"></span> : <span id="svi2"></span></p>
+      <p id="backing">Srbija .......... <span id="srb"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="srb1"></span> : <span id="srb2"></span></p>
+      <p id="backing">Kostarika .......... <span id="kos"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="kos1"></span> : <span id="kos2"></span></p><hr>                            
+    </div>
+
+    <div class="col-x-12 col-s-3">
+       <input id="lookBtn" type="button" value="group A" onclick="groupA()">       
+       <input id="lookBtn" type="button" value="group B" onclick="groupB()"> 
+       <input id="lookBtn" type="button" value="group C" onclick="groupC()"> 
+       <input id="lookBtn" type="button" value="group D" onclick="groupD()"> 
+       <input id="lookBtn" type="button" value="group F" onclick="groupF()"> 
+       <input id="lookBtn" type="button" value="group G" onclick="groupG()"> 
+       <input id="lookBtn" type="button" value="group H" onclick="groupH()"><hr> 
+
+       <input id="lookBtn" type="button" value="LAST 16" onclick="last16()"> 
+       <input id="lookBtn" type="button" value="QUARTER-FINALS" onclick="quarterFinals()"> 
+       <input id="lookBtn" type="button" value="SEMI-FINALS" onclick="semiFinals()"> 
+       <input id="lookBtn" type="button" value="THIRD PLACE anf FINAL" onclick="final()"><br>
+
+       <a id="archorLook" href="standings.html">BACK TO MAIN MENU</a>                                  
+    </div>
+  
+  </div>
+</div>
+
+<!-- group standing F -->
+<div id="worldCupF" class="container">
+  <div class="row">
+    <div id="groupStandF" class="col-x-12 col-s-9">
+      <p id="backing"><b>Nemačka</b> - <b>Meksiko .......... <span id="ne1"></span> : <span id="me1"></span></b></p>      
+      <p id="backing"><b>Švedska</b> - <b>Južna Koreja .......... <span id="sve1"></span> : <span id="jk1"></span></b></p>
+      <p id="backing"><b>Južna Koreja </b> - <b>Meksiko .......... <span id="jk2"></span> : <span id="me2"></span></b></p> 
+      <p id="backing"><b>Nemačka</b> - <b>Švedska .......... <span id="ne2"></span> : <span id="sve2"></span></b></p> 
+      <p id="backing"><b>Južna Koreja</b> - <b>Nemačka .......... <span id="jk3"></span> : <span id="ne3"></span></b></p>  <p id="backing"><b>Meksiko</b> - <b>Švedska .......... <span id="me3"></span> : <span id="sve3"></span></b></p><hr> 
+
+      <p id="backing">Švedska .......... <span id="sved"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="sved1"></span> : <span id="sved2"></span></p>
+
+      <p id="backing">Meksiko .......... <span id="mex"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="mex1"></span> : <span id="mex2"></span></p>
+
+      <p id="backing">Južna Koreja .......... <span id="jkor"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="jkor1"></span> : <span id="jkor2"></span></</p>
+
+      <p id="backing">Nemačka .......... <span id="nem"></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="nem1"></span> : <span id="nem2"></span></</p><hr>                            
+    </div>
+    
+    <div class="col-x-12 col-s-3">
+       <input id="lookBtn" type="button" value="group A" onclick="groupA()">       
+       <input id="lookBtn" type="button" value="group B" onclick="groupB()"> 
+       <input id="lookBtn" type="button" value="group C" onclick="groupC()"> 
+       <input id="lookBtn" type="button" value="group D" onclick="groupD()"> 
+       <input id="lookBtn" type="button" value="group E" onclick="groupE()"> 
+       <input id="lookBtn" type="button" value="group G" onclick="groupG()"> 
+       <input id="lookBtn" type="button" value="group H" onclick="groupH()"><hr> 
+
+       <input id="lookBtn" type="button" value="LAST 16" onclick="last16()"> 
+       <input id="lookBtn" type="button" value="QUARTER-FINALS" onclick="quarterFinals()"> 
+       <input id="lookBtn" type="button" value="SEMI-FINALS" onclick="semiFinals()"> 
+       <input id="lookBtn" type="button" value="THIRD PLACE anf FINAL" onclick="final()"><br>
+
+       <a id="archorLook" href="standings.html">BACK TO MAIN MENU</a>                                  
+    </div>    
+
+  </div>  
+</div>
+
+<!-- group standing G -->
+<div id="worldCupG" class="container">
+  <div class="row">
+    <div id="groupStandG" class="col-xs-12 col-sm-9">
+      <p id="backing"><b>Belgija</b> - <b>Panama .......... <span id="ne1">3</span> : <span id="me1">0</span></b></p>     
+      <p id="backing"><b>Tunis </b> - <b>Engleska .......... <span id="jk2">1</span> : <span id="me2">2</span></b></p> 
+      <p id="backing"><b>Belgija</b> - <b>Tunis .......... <span id="ne2">5</span> : <span id="sve2">2</span></b></p> 
+      <p id="backing"><b>Engleska</b> - <b>Panama .......... <span id="jk3">6</span> : <span id="ne3">1</span></b></p>
+      <p id="backing"><b>Panama</b> - <b>Tunis .......... <span id="jk3">1</span> : <span id="ne3">2</span></b></p>
+      <p id="backing"><b>Engleska</b> - <b>Belgija .......... <span id="me3">0</span> : <span id="sve3">1</span></b></p><hr> 
+
+      <p id="backing">Belgija .......... <span id="sved">9</span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="sved1">9</span> : <span id="sved2">2</span></p>
+
+      <p id="backing">Engleska .......... <span id="mex">6</span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="mex1">8</span> : <span id="mex2">3</span></p>
+
+      <p id="backing">Tunis .......... <span id="jkor">3</span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="jkor1">5</span> : <span id="jkor2">8</span></</p>
+
+      <p id="backing">Panama .......... <span id="nem">0</span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="nem1">2</span> : <span id="nem2">11</span></</p><hr>                            
+    </div>
+
+    <div class="col-x-12 col-s-3">
+       <input id="lookBtn" type="button" value="group A" onclick="groupA()">       
+       <input id="lookBtn" type="button" value="group B" onclick="groupB()"> 
+       <input id="lookBtn" type="button" value="group C" onclick="groupC()"> 
+       <input id="lookBtn" type="button" value="group D" onclick="groupD()"> 
+       <input id="lookBtn" type="button" value="group E" onclick="groupE()"> 
+       <input id="lookBtn" type="button" value="group F" onclick="groupF()"> 
+       <input id="lookBtn" type="button" value="group H" onclick="groupH()"><hr>  
+
+       <input id="lookBtn" type="button" value="LAST 16" onclick="last16()"> 
+       <input id="lookBtn" type="button" value="QUARTER-FINALS" onclick="quarterFinals()"> 
+       <input id="lookBtn" type="button" value="SEMI-FINALS" onclick="semiFinals()"> 
+       <input id="lookBtn" type="button" value="THIRD PLACE anf FINAL" onclick="final()"><br>
+
+       <a id="archorLook" href="standings.html">BACK TO MAIN MENU</a>                                  
+    </div>
+  
+  </div>
+</div>
+
+<!-- group standing H -->
+<div  id="worldCupH"class="container">
+  <div class="row">
+    <div id="groupStandH" class="col-x-12 col-s-9">
+      <p id="backing"><b>Kolumbija</b> - <b>Japan .......... <span id="ne1">1</span> : <span id="me1">2</span></b></p>     
+      <p id="backing"><b>Poljska </b> - <b>Senegal .......... <span id="jk2">1</span> : <span id="me2">2</span></b></p> 
+      <p id="backing"><b>Japan</b> - <b>Senegal .......... <span id="ne2">2</span> : <span id="sve2">2</span></b></p> 
+      <p id="backing"><b>Poljska</b> - <b>Kolumbija .......... <span id="jk3">0</span> : <span id="ne3">3</span></b></p>
+      <p id="backing"><b>Japan</b> - <b>Poljska .......... <span id="jk3">0</span> : <span id="ne3">1</span></b></p>
+      <p id="backing"><b>Senegal</b> - <b>Kolumbija .......... <span id="me3">0</span> : <span id="sve3">1</span></b></p><hr> 
+
+      <p id="backing">Kolumbija .......... <span id="sved">6</span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="sved1">5</span> : <span id="sved2">2</span></p>
+
+      <p id="backing">Japan .......... <span id="mex">4</span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="mex1">4</span> : <span id="mex2">4</span></p>
+
+      <p id="backing">Senegal .......... <span id="jkor">4</span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="jkor1">4</span> : <span id="jkor2">4</span></</p>
+
+      <p id="backing">Poljska .......... <span id="nem">3</span>&nbsp&nbsp&nbsp&nbsp&nbsp<span id="nem1">2</span> : <span id="nem2">5</span></</p><hr>                            
+    </div>
+
+    <div class="col-x-12 col-s-3">
+       <input id="lookBtn" type="button" value="group A" onclick="groupA()">      
+       <input id="lookBtn" type="button" value="group B" onclick="groupB()"> 
+       <input id="lookBtn" type="button" value="group C" onclick="groupC()"> 
+       <input id="lookBtn" type="button" value="group D" onclick="groupD()"> 
+       <input id="lookBtn" type="button" value="group E" onclick="groupE()"> 
+       <input id="lookBtn" type="button" value="group F" onclick="groupF()"> 
+       <input id="lookBtn" type="button" value="group G" onclick="groupG()"><hr> 
+
+       <input id="lookBtn" type="button" value="LAST 16" onclick="last16()"> 
+       <input id="lookBtn" type="button" value="QUARTER FINALS" onclick="quarterFinals()"> 
+       <input id="lookBtn" type="button" value="SEMI FINALS" onclick="semiFinals()"> 
+       <input id="lookBtn" type="button" value="THIRD PLACE anf FINAL" onclick="final()"><br>
+
+       <a id="archorLook" href="standings.html">BACK TO MAIN MENU</a>                                  
+    </div>
+  
+  </div>
+</div>
+
+<!-- last sixteen -->
+<div id="WCupLast16" class="container">
+    <span id="titles">LAST 16</span><br><br>
+   
+   <div id="sixteenLook">
+    <span id="timing">30.jun - SOČI (20.00)</span>
+    <p><span id="winnerA">Urugvaj</span><span id="goalsA"></span></p>
+    <p><span id="secondB">Portugal</span><span id="goalsB"></span></p>
+   </div>
+   
+   <div id="sixteenLook">
+    <span id="timing">30.jun - KAZANJ (16.00)</span>
+    <p><span id="winnerC">Francuska</span><span id="goalsC"></span></p>
+    <p><span id="secondD">Argentina</span><span id="goalsD"></span></p>
+   </div>
+   
+   <div id="sixteenLook">
+    <span id="timing">2.jul - SAMARA (16.00)</span>
+    <p><span id="winnerE">Brazil</span><span id="goalsE"></span></p>
+    <p><span id="secondF">Meksiko</span><span id="goalsF"></span></p>
+   </div>
+
+   <div id="sixteenLook">
+    <span id="timing">2.jul - ROSTOV NA DONU (20.00)</span>
+    <p><span id="winnerG">Belgija</span><span id="goalsG"></span></p>
+    <p><span id="secondH">Japan</span><span id="goalsH"></span></p>
+   </div>
+
+   <div id="sixteenLook">
+    <span id="timing">1.jul - MOSKVA (Lužnjiki) (16.00)</span>
+    <p><span id="winnerB">Španija</span><span id="goalsBB"></span><span id="penaltyShoots">pen 3</span></p>
+    <p><span id="secondA">Rusija</span><span id="goalsAA"></span><span id="penaltyShoots">pen 4</span></p>
+   </div>
+
+   <div id="sixteenLook">
+    <span id="timing">1.jul - NIŽNIJ NOVGOROD (20.00)</span>
+    <p><span id="winnerD">Hrvatska</span><span id="goalsDD"></span><span id="penaltyShoots">pen 3</span></p>
+    <p><span id="secondC">Danska</span><span id="goalsCC"></span><span id="penaltyShoots">pen 2</span></p>
+   </div>
+
+   <div id="sixteenLook">
+    <span id="timing">3.jul - SANKT PETERSBURG (16.00)</span>
+    <p><span id="winnerF">Švedska</span><span id="goalsFF"></span></p>
+    <p><span id="secondE">Švajcarska</span><span id="goalsEE"></span></p>
+   </div>
+
+   <div id="sixteenLook">
+    <span id="timing">3.jul - MOSKVA (Otkritie arena) (20.00)</span>
+    <p><span id="winnerH">Kolumbija</span><span id="goalsHH"></span><span id="penaltyShoots">pen 3</span></p>
+    <p><span id="secondG">Engleska</span><span id="goalsGG"></span><span id="penaltyShoots">pen 4</span></p>
+   </div>
+
+
+   <div id="sixteenLook">
+
+       <input id="lookBtn" type="button" value="QUARTER FINALS" onclick="quarterFinals()"> 
+       <input id="lookBtn" type="button" value="SEMI FINALS" onclick="semiFinals()"> 
+       <input id="lookBtn" type="button" value="THIRD PLACE anf FINAL" onclick="final()"><br> 
+
+    <a id="archorLook1" href="standings.html">BACK TO MAIN MENU</a>
+   </div>
+  
+</div> 
+
+<!-- quarter finals -->
+<div id="WCupQuarterFinals" class="container">
+    <span id="titles">QUARTER FINALS</span>
+
+   <div id="sixteenLook"> 
+    <span id="timing">&nbsp&nbsp&nbsp6.jul &nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp NIŽNIJ NOVGOROD  (16.00)</span>
+    <p><span id="win1"></span><span id="goalsq1"></span></p>
+    <p><span id="win2"></span><span id="goalsq2"></span></p>
+   </div>
+
+
+   <div id="sixteenLook">
+    <span id="timing">&nbsp&nbsp&nbsp6.jul &nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp KAZANJ  &nbsp&nbsp&nbsp(20.00)</span>
+    <p><span id="win3"></span><span id="goalsq3"></span></p>
+    <p><span id="win4"></span><span id="goalsq4"></span></p>
+   </div>
+
+
+   <div id="sixteenLook">
+    <span id="timing">&nbsp&nbsp&nbsp7.jul &nbsp&nbsp&nbsp  - &nbsp&nbsp&nbsp  SOČI    &nbsp&nbsp&nbsp(20.00)</span>
+    <p><span id="win5"></span><span id="goalsq5"></span><span id="penaltyShoots">pen 3</span></p>
+    <p><span id="win6"></span><span id="goalsq6"></span><span id="penaltyShoots">pen 4</span></p>
+   </div>
+
+   <div id="sixteenLook">
+    <span id="timing">&nbsp&nbsp&nbsp 7.jul &nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp SAMARA  &nbsp&nbsp&nbsp(16.00)</span>
+    <p><span id="win7"></span><span id="goalsq7"></span></p>
+    <p><span id="win8"></span><span id="goalsq8"></span></p>    
+   </div>
+   
+   <div id="sixteenLook"> 
+
+     <input id="lookBtn" type="button" value="LAST 16" onclick="last16()"> 
+     <input id="lookBtn" type="button" value="SEMI FINALS" onclick="semiFinals()"> 
+     <input id="lookBtn" type="button" value="THIRD PLACE anf FINAL" onclick="final()"><br> 
+
+    <a id="archorLook1" href="standings.html">BACK TO MAIN MENU</a>
+   </div>    
+</div>
+
+<!-- semi finals -->
+  <div id="WCupSemiFinals" class="container">
+    <span id="titles">SEMI FINALS</span>
+
+   <div id="sixteenLook">
+    <span id="timing">10.jul - SANKT PETERSBURG  (19.00)</span>
+    <p><span id="winner11">Francuska</span><span id="goals111"></span></p>
+    <p><span id="winner21">Belgija</span><span id="goals211"></span></p>
+   </div> 
+
+   <div id="sixteenLook">
+    <span id="timing">11.jul - MOSKVA (Lužnjiki)  (19.00)</span>
+    <p><span id="winner31">Hrvatska</span><span id="goals311"></span></p>
+    <p><span id="winner41">Engleska</span><span id="goals411"></span></p>
+   </div> 
+  
+   <div id="sixteenLook">
+
+     <input id="lookBtn" type="button" value="LAST 16" onclick="last16()"> 
+     <input id="lookBtn" type="button" value="QARTER FINALS" onclick="quarterFinals()"> 
+     <input id="lookBtn" type="button" value="THIRD PLACE anf FINAL" onclick="final()"><br> 
+
+    <a id="archorLook1" href="standings.html">BACK TO MAIN MENU</a>
+   </div>
+  </div>
+      
+  
+
+<!-- final / third place -->
+  <div id="WCupFinal" class="container">
+    <span id="titles">THIRD PLACE / FINAL</span>
+
+   <div id="sixteenLook">
+    <span id="timing">14.jul - SANKT PETERSBURG  (15.00)</span>
+    <span id="titles">THIRD PLACE</span>
+    <p><span id="second111"></span><span id="goals111">2</span></p>
+    <p><span id="second211"></span><span id="goals211">0</span></p>
+   </div> 
+
+   <div id="sixteenLook">
+    <span id="timing">15.jul - MOSKVA (Lužnjiki)  (16.00)</span>
+    <span id="titles">FINAL</span>    
+    <p><span id="winner121"></span><span id="goals311">4</span></p>
+    <p><span id="winner221"></span><span id="goals411">2</span></p>
+
+   </div> 
+  
+   <div id="sixteenLook">
+
+     <input id="lookBtn" type="button" value="LAST 16" onclick="last16()"> 
+     <input id="lookBtn" type="button" value="QARTER FINALS" onclick="quarterFinals()"> 
+     <input id="lookBtn" type="button" value="SEMI FINALS" onclick="semiFinals()"><br> 
+
+    <a id="archorLook1" href="standings.html">BACK TO MAIN MENU</a>
+   </div>  
+  </div>   
+
+
+
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../naslovna/bootstrap.min.js"></script>
+<script type="text/javascript" src="standing.js"></script>
+<script type="text/javascript" src="standing/standingA.js"></script>
+<script type="text/javascript" src="standing/standingB.js"></script>
+<script type="text/javascript" src="standing/standingC.js"></script>
+<script type="text/javascript" src="standing/standingD.js"></script>
+<script type="text/javascript" src="standing/standingE.js"></script>
+<script type="text/javascript" src="standing/standingF.js"></script>
+<script type="text/javascript" src="standing/standingG.js"></script>
+<script type="text/javascript" src="standing/standingH.js"></script>
+<script type="text/javascript" src="last16.js"></script>
+<script type="text/javascript" src="quarterFinal.js"></script>
+<script type="text/javascript" src="semiFinal.js"></script>
+
+</body>
+</html>
