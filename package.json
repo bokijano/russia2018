@@ -1,14 +1,15 @@
 {
-  "name": "worldCup",
+  "name": "world-cup",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://bokijano.github.io/russia2018",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
