@@ -1,0 +1,191 @@
+#picture {
+	background-image: url("../naslovna/slike/naslov.jpg");
+	background-position: center;
+	background-repeat: no-repeat; 
+	height: 243px;
+}
+
+#russia {
+	background: linear-gradient(white, blue, red);	
+	color: white;
+	font-weight: bolder;
+}
+
+
+#stadium1 {
+	float: left;
+	display: block;
+	margin-left: 10px;	
+}
+
+#stadium2 {
+	float: right;
+	display: block;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 859px) {
+  #stadium1,
+  #stadium2 {display:none;}
+}
+
+@media screen and (min-width: 860px) {
+  #stadium1 {
+  	max-width: 250px; 
+  	margin-left: 5px;
+  	margin-top: 20px;
+  }
+    #stadium2 {
+  	max-width: 250px;
+  	margin-right: 5px; 
+  	margin-top: 20px;  	
+  }
+}  
+
+#content {
+	display: none;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+
+
+
+@media screen and (min-width: 1060px) {
+  #stadium1 {
+  	max-width: 300px;
+  	margin-top: 30px; 
+  	margin-left: 30px;
+  }
+    #stadium2 {
+  	max-width: 300px;
+  	margin-top: 30px; 
+  	margin-left: 30px;  	
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #stadium1 {
+  	max-width: 400px;
+  	margin-top: 0px;
+  	margin-left: 10px; 
+  }
+   #stadium2 {
+  	max-width: 400px;
+  	margin-top: 0px;
+   	margin-left: 10px; 
+  } 
+}
+
+
+
+@media screen and (max-width: 991px) {
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;
+	          float: left;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;
+	          float: left;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;
+	          float: left;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;
+	           float: left;}
+}
+
+
+@media screen and (min-width: 991px) {
+    .col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;
+	          float: left;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;
+	          float: left;}
+	.col-m-5 {width: 41.66%;}
+	.col-m-6 {width: 50%;
+	          float: left;}
+	.col-m-7 {width: 58.33%;}
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}
+	.col-m-10 {width: 83.33%;}
+	.col-m-11 {width: 91.66%;}
+	.col-m-12 {width: 100%;}
+}
+
+h5 {
+	max-width: 150px;
+	text-align: center;
+	font-weight: bolder;
+	color: white;	
+	text-shadow: 2px 2px 4px;
+}
+
+#group {
+	max-width: 150px;
+	border: 2px solid #333;
+	background-color: yellow;
+    text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+	text-shadow: 2px 2px 4px;	
+}
+
+#flag {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-left: 5px;
+    padding-right: 5px; 
+}
+
+#groupLook {
+	height: 620px;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-color: blue;
+	max-width: 150px;
+}
+
+#matchLook {
+	height: 620px;
+	margin-top: 20px;
+	padding-top: 10px;
+	font-size: 15px;
+	padding-left: 50px;
+	border: 2px solid #333;
+	box-shadow: 2px 2px 4px;
+}
+
+#buttonLook {
+	margin-left: 50px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+@media screen and (max-width: 500px) {
+	#groupLook {height: 620px;
+	            margin-left: 0px;}
+	#matchLook {height: 620px;
+	            padding-left: 5px;} 
+	#flag {padding-top: 35px;}           
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px;  
+}

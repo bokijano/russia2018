@@ -1,0 +1,381 @@
+body {
+	margin: 0; 
+}
+
+.container {
+	display: none;
+}
+
+.navbar {
+	overflow: hidden;
+}
+
+
+#picture {
+	background-image: url("slike/naslov.jpg");
+	background-position: center;
+	background-repeat: no-repeat; 
+	height: 243px;
+}
+
+#russia {
+	background: linear-gradient(white, blue, red);	
+	color: white;
+	font-weight: bolder;
+}
+
+
+#stadium1 {
+	float: left;
+	display: block;
+	margin-left: 10px;	
+}
+
+#stadium2 {
+	float: right;
+	display: block;
+    margin-right: 10px;
+}
+
+#lookingBox {
+	border: 3px solid #333;
+	box-shadow: 3px 3px 6px #333;
+	margin-top: -10px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+#stadium {
+	border: 3px solid #333;
+	box-shadow: 3px 3px 6px #333;
+	border-radius: 10px;	
+}
+
+#rus {
+	background: linear-gradient(white, blue, red);
+	color: white;
+	font-weight: bolder;
+}
+
+#SA {
+	background: linear-gradient(green, green, white, green, green);
+	color: black;
+	font-weight: bolder;
+}
+
+#ger {
+	background: linear-gradient(black, red, yellow);
+	color: white;
+	font-weight: bolder;
+}
+
+#mex {
+	background: linear-gradient(to right, green, white, red);
+	color: black;
+	font-weight: bolder;
+}
+
+#por {
+	background: linear-gradient(to right, green, red, red);
+	color: white;
+	font-weight: bolder;
+}
+
+#mar {
+	background: linear-gradient(red, red, green, red, red);
+	color: white;
+	font-weight: bolder;
+}
+
+#dan {
+	background: linear-gradient(red, red, white, red);
+	color: black;
+	font-weight: bolder;
+}
+
+#fra {
+	background: linear-gradient(to right, blue, white, red);
+	color: black;
+	font-weight: bolder;
+}
+
+#arg {
+	background: linear-gradient(lightblue, white, lightblue);
+	color: black;
+	font-weight: bolder;
+}
+
+#isl {
+	background: linear-gradient(blue, blue, white, red, white, blue, blue);
+	color: black;
+	font-weight: bolder;
+}
+
+#pol {
+	background: linear-gradient(white, red);
+	color: white;
+	font-weight: bolder;
+}
+
+#sen {
+	background: linear-gradient(to right, green, yellow, red);
+	color: black;
+	font-weight: bolder;
+}
+
+#bel {
+	background: linear-gradient(to right, black, yellow, red);
+	color: black;
+	font-weight: bolder;
+}
+
+#tun {
+	background: linear-gradient(to right, red, red, white, red, red);
+	color: black;
+	font-weight: bolder;
+}
+
+#srb {
+	background: linear-gradient(red, blue, white);
+	color: black;
+	font-weight: bolder;
+}
+
+#bra {
+	background: linear-gradient(to right, green, green, yellow, blue, yellow, green, green);
+	color: black;
+	font-weight: bolder;
+}
+
+#aus {
+	background: linear-gradient(blue, white, red, blue, blue);
+	color: black;
+	font-weight: bolder;
+}
+
+#ira {
+	background: linear-gradient(green, white, red);
+	color: black;
+	font-weight: bolder;
+}
+
+#spa {
+	background: linear-gradient(red, yellow, yellow, red);
+	color: black;
+	font-weight: bolder;
+}
+
+#kol {
+	background: linear-gradient(yellow, blue, red);
+	color: white;
+	font-weight: bolder;
+}
+
+#kor {
+	background: linear-gradient(to right, white, white, white, red, blue, white, white, white);
+	color: black;
+	font-weight: bolder;
+}
+
+#nem {
+	background: linear-gradient(black, red, yellow);
+	color: black;
+	font-weight: bolder;
+}
+
+#sve {
+	background: linear-gradient(to right,blue, blue, yellow, blue, blue);
+	color: yellow;
+	font-weight: bolder;
+}
+
+#hrv {
+	background: linear-gradient(red, white, blue);
+	color: black;
+	font-weight: bolder;
+}
+
+#eng {
+	background: linear-gradient(white, white, white, red, white, white, white);
+	color: black;
+	font-weight: bolder;
+}
+
+#pan {
+	background: linear-gradient(to right, blue, red);
+	color: white;
+	font-weight: bolder;
+}
+
+#kos {
+	background: linear-gradient(blue, white, red, white, blue);
+	color: black;
+	font-weight: bolder;
+}
+
+#sva {
+	background: linear-gradient(to right, red, red, white, red, red);
+	color: white;
+	font-weight: bolder;
+}
+
+#egi {
+	background: linear-gradient(red, white, black);
+	color: black;
+	font-weight: bolder;
+}
+
+#nig {
+	background: linear-gradient(to right, green, white, green);
+	color: black;
+	font-weight: bolder;
+}
+
+#uru {
+	background: linear-gradient(blue, white, blue, white, blue, white, blue);
+	color: black;
+	font-weight: bolder;
+}
+
+#per {
+	background: linear-gradient(to right, red, white, red);
+	color: black;
+	font-weight: bolder;
+}
+
+#jap {
+	background: linear-gradient(to right,white, white, red, white, white);
+	color: black;
+	font-weight: bolder;
+}
+
+#belo {
+	color: white;
+}
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 50px;
+}
+
+@media screen and (max-width: 859px) {
+  #stadium1,
+  #stadium2 {display:none;}
+}
+
+@media screen and (min-width: 860px) {
+  #stadium1 {
+  	max-width: 250px; 
+  	margin-left: 5px;
+  	margin-top: 20px;
+  }
+    #stadium2 {
+  	max-width: 250px;
+  	margin-right: 5px; 
+  	margin-top: 20px;  	
+  }
+
+}
+
+@media screen and (min-width: 1060px) {
+  #stadium1 {
+  	max-width: 300px;
+  	margin-top: 30px; 
+  	margin-left: 30px;
+  }
+    #stadium2 {
+  	max-width: 300px;
+  	margin-top: 30px; 
+  	margin-left: 30px;  	
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #stadium1 {
+  	max-width: 400px;
+  	margin-top: 0px;
+  	margin-left: 10px; 
+  }
+   #stadium2 {
+  	max-width: 400px;
+  	margin-top: 0px;
+   	margin-left: 10px; 
+  } 
+}
+
+#stadLook {
+	padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+	.col-x-1 {width: 8.33%;}
+	.col-x-2 {width: 16.66%;}
+	.col-x-3 {width: 25%;}
+	.col-x-4 {width: 33.33%;
+	          float: left;}
+	.col-x-5 {width: 41.66%;}
+	.col-x-6 {width: 50%;
+	          float: left;}
+	.col-x-7 {width: 58.33%;}
+	.col-x-8 {width: 66.66%;
+	          float: left;}
+	.col-x-9 {width: 75%;}
+	.col-x-10 {width: 83.33%;}
+	.col-x-11 {width: 91.66%;}
+	.col-x-12 {width: 100%;
+	           float: left;}
+}
+
+@media screen and (min-width: 768px) {
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;
+	          float: left;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;
+	          float: left;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;
+	          float: left;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;
+	           float: left;}
+}
+
+
+@media screen and (min-width: 1200px) {
+    .col-l-1 {width: 8.33%;}
+	.col-l-2 {width: 16.66%;
+	          float: left;}
+	.col-l-3 {width: 25%;
+	          float: left;}
+	.col-l-4 {width: 33.33%;
+	          float: left;}
+	.col-l-5 {width: 41.66%;}
+	.col-l-6 {width: 50%;
+	          float: left;}
+	.col-l-7 {width: 58.33%;}
+	.col-l-8 {width: 66.66%;}
+	.col-l-9 {width: 75%;}
+	.col-l-10 {width: 83.33%;}
+	.col-l-11 {width: 91.66%;}
+	.col-l-12 {width: 100%;}
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px;  
+}
